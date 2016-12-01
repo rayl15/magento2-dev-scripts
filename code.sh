@@ -10,9 +10,9 @@ echo "##    Clearing code generation and dependency injection files...";
 echo "## ---------------------------------------------------------- ##";
 rm -rf var/di var/generation;
 
-## Compile dependency injection
+## Compile 
 echo "## ---------------------------------------------------------- ##";
-echo "##    Compiling dependency injection...";
+echo "##    Compiling DI configuration and code generation...";
 echo "## ---------------------------------------------------------- ##";
 php bin/magento setup:di:compile;
 
